@@ -1,0 +1,16 @@
+.feed {
+  flex: 0.5;
+
+  overflow-y: scroll;
+  background-color: #f9f9f9;
+}
+
+.feedHeader {
+  color: blue;
+  position: sticky;
+  top: 0;
+  z-index: inherit;
+  background-color: #f9f9f9;
+  padding-bottom: 0rem;
+  padding-left: 1rem;
+}

@@ -1,0 +1,21 @@
+.loginwithgoogle {
+  padding-left: 200px;
+  padding-top: 100px;
+  padding-right: 800px;
+  background-color: #ffdada;
+  height: 100vh;
+}
+
+.loginwithgoogle h1 {
+  color: blueviolet;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.loginwithgoogle .icon {
+  color: blueviolet;
+  height: 100px;
+  width: 100px;
+}
+.loginwithgoogle h3 {
+  font-weight: 500;
+}

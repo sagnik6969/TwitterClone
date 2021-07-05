@@ -1,0 +1,30 @@
+.sidebarItem {
+  display: flex;
+
+  width: fit-content;
+  align-items: center;
+  cursor: pointer;
+
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+}
+
+.sidebarItem:hover {
+  background-color: #f9f9f9;
+  color: #1da1f2;
+  transition: 100ms;
+}
+
+.sidebarItem > h2 {
+  margin: 0;
+  padding-right: 2rem;
+}
+
+.sidebarItem .icon {
+  padding: 1rem;
+}
+
+.active {
+  color: #1da1f2;
+}

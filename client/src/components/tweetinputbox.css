@@ -1,0 +1,89 @@
+.outerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.avater {
+  height: 3.5rem;
+  width: 3.5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  /*  padding-top: 0rem; */
+}
+
+.avater:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+  transition: 300ms;
+}
+
+.tweetinputbox input {
+  border: none;
+  outline: none;
+  background-color: inherit;
+
+  font-size: 1.5rem;
+}
+.Button {
+  /* align-self: flex-end; */
+
+  border: 0 !important;
+  text-align: center !important;
+  margin-top: 2rem !important;
+  background: #1da1f2 !important;
+  background-image: -webkit-linear-gradient(top, #1da1f2, #1da1f2) !important;
+  background-image: -moz-linear-gradient(top, #1da1f2, #1da1f2) !important;
+  background-image: -ms-linear-gradient(top, #1da1f2, #1da1f2) !important;
+  background-image: -o-linear-gradient(top, #1da1f2, #1da1f2) !important;
+  background-image: linear-gradient(to bottom, #1da1f2, #1da1f2) !important;
+  -webkit-border-radius: 26 !important;
+  -moz-border-radius: 26 !important;
+  border-radius: 26px !important;
+  /* text-shadow: 1px 1px 3px #666666; */
+  font-family: Arial !important;
+  color: #ffffff !important;
+  font-size: 15px !important;
+
+  padding: 6px 20px 6px 20px !important;
+  text-decoration: none !important;
+  font-weight: 520 !important;
+  text-transform: capitalize !important;
+
+  margin-left: auto !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.Button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db) !important;
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db) !important;
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db) !important;
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db) !important;
+  text-decoration: none !important;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.tweetinputbox {
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.Tweetboxicons {
+  height: fit-content !important;
+  padding: 0.5rem;
+  color: #1da1f2;
+  border-radius: 50%;
+}
+
+.Tweetboxicons:hover {
+  background-color: #f7dbf0;
+  transition: 300ms;
+  cursor: pointer;
+}

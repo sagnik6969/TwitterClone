@@ -1,0 +1,50 @@
+.widget {
+  padding: 1rem;
+  margin: 1rem;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  border: 1px solid #f7dbf0;
+}
+
+.widget:hover {
+  background-color: #e8f6ef;
+  transition: 200ms;
+}
+
+.widget img {
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.widget img:hover {
+  filter: brightness(80%);
+  transition: 300ms;
+}
+
+.widget h3 {
+  margin-top: 0;
+}
+
+.widget h3:hover {
+  text-decoration: underline;
+}
+.widget p:hover {
+  text-decoration: underline;
+}
+
+.widget .bottomcontainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #1da1f2;
+}

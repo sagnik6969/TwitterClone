@@ -1,0 +1,37 @@
+.tweetbox {
+  display: flex;
+  border-bottom: solid #f7dbf0 2px;
+  border-top: solid #f7dbf0 2px;
+}
+.tweetbox > img {
+  height: 3.5rem;
+  width: 3.5rem;
+  margin: 1rem !important;
+  padding: 0rem !important;
+  border-radius: 50% 50% 50% 50%;
+}
+.tweetbox > img:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+  transition: 300ms;
+}
+
+.tweetBody {
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 0.5rem;
+  /* border-radius: 20%; */
+  /* align-items: flex-start; */
+}
+h4 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+.tweetbox .username {
+  padding-left: 0.3rem;
+  font-weight: 450;
+  color: #01937c;
+}
