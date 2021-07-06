@@ -19,7 +19,12 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(Express.json());       // to support JSON-encoded bodies
 app.use(Express.urlencoded({ extended: true }));
+app.use(Express.static('../client/build'))
 
+
+app.get('/', (req, res) => {
+    res.sendFile('../client/build/index.html')
+})
 
 
 app.listen(5000, () => console.log("server started at port 5000"))
@@ -46,6 +51,9 @@ connection.connect((err) => {
     if (!err) console.log("connected to surver")
     else console.log("connection failed")
 });
+
+
+
 
 
 // app.post('/login', (req, res) => {
